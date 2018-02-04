@@ -9,26 +9,28 @@
     </head>
     <body>
         <div class="container-fluid" id="outer-container">
-            <div class="row" id="navbar">
-                <div class="col-md-3 col-xs-3 navbarItem">
-                    <a href="x" class="link header-link" id="header-link-home">
-                        <h2 class="text-center text-grey link-text-light active" id="navbar-home">Home</h2>
-                    </a>
-                </div>
-                <div class="col-md-3 col-xs-3 navbarItem">
-                    <a href="x" class="link header-link" id="header-link-about">
-                        <h2 class="text-center text-grey link-text-light" id="navbar-about">About</h2>
-                    </a>
-                </div>
-                <div class="col-md-3 col-xs-3 navbarItem">
-                    <a href="x" class="link header-link" id="header-link-port">
-                        <h2 class="text-center text-grey link-text-light" id="navbar-port">Portfolio</h2>
-                    </a>
-                </div>
-                <div class="col-md-3 col-xs-3 navbarItem">
-                    <a href="x" class="link header-link" id="header-link-contact">
-                        <h2 class="text-center text-grey link-text-light" id="navbar-contact">Contact</h2>
-                    </a>
+            <div class="container" id="navbar-container">
+                <div class="row" id="navbar">
+                    <div class="col-md-3 col-xs-3 navbarItem">
+                        <a href="#" class="link header-link" id="header-link-home">
+                            <h2 class="text-center text-grey link-text-light active" id="navbar-home">Home</h2>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-3 navbarItem">
+                        <a href="#" class="link header-link" id="header-link-about">
+                            <h2 class="text-center text-grey link-text-light" id="navbar-about">About</h2>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-3 navbarItem">
+                        <a href="#" class="link header-link" id="header-link-port">
+                            <h2 class="text-center text-grey link-text-light" id="navbar-port">Portfolio</h2>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-3 navbarItem">
+                        <a href="#" class="link header-link" id="header-link-contact">
+                            <h2 class="text-center text-grey link-text-light" id="navbar-contact">Contact</h2>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="row" id="page-title">
@@ -36,22 +38,22 @@
                     <h1 class="text-center text-white page-name" id="title-name">Robert Green</h1>
                     <div class="row" id="social-links-header">
                         <div class="col-md-3 col-xs-3 social-links-div">
-                            <a class="link" href="#">
+                            <a class="link" href="https://github.com/Tombombleron" target="_blank">
                                 <h4 class="text-white text-center social-links link-text-dark">Github</h4>
                             </a>
                         </div>
                         <div class="col-md-3 col-xs-3 social-links-div">
-                            <a class="link" href="#">
+                            <a class="link" href="https://www.linkedin.com/in/robert-g-817a3b139/" target="_blank">
                                 <h4 class="text-white text-center social-links link-text-dark">LinkedIn</h4>
                             </a>
                         </div>
                         <div class="col-md-3 col-xs-3 social-links-div">
-                            <a class="link" href="#">
+                            <a class="link" href="https://www.kaggle.com/tombombleron" target="_blank">
                                 <h4 class="text-white text-center social-links link-text-dark">Kaggle</h4>
                             </a>
                         </div>
                         <div class="col-md-3 col-xs-3 social-links-div">
-                            <a class="link" href="#">
+                            <a class="link" href="https://codepen.io/Tombombleron/" target="_blank">
                                 <h4 class="text-white text-center social-links link-text-dark">Codepen</h4>
                             </a>
                         </div>
@@ -67,6 +69,32 @@
                 <div class="col-md-12 col-xs-12" id="port-inner-div">
                     <h1 class="text-center text-white page-name" id="port-title">Portfolio</h1>
                 </div>
+                <div class="container-fluid" id="port-table">
+                    <div class="row" id="img-top-row">
+                        <div class="col-md-6 col-xs-6 port-img">
+                            <a>
+                                <img src="images/css.png" alt="CSS Example" class="center-block img-responsive img-thumbnail"/>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xs-6 port-img">
+                            <a>
+                                <img src="images/jquery.png" alt="jQuery Example" class="center-block img-responsive img-thumbnail">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-xs-6 port-img">
+                            <a>
+                                <img src="images/vba1.png" alt="VBA Example" class="center-block img-responsive img-thumbnail">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xs-6 port-img">
+                            <a>
+                                <img src="images/maths.png" alt="Website Example" class="center-block img-responsive img-thumbnail">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row" id="contact-div">
                 <div class="col-md-12 col-xs-12" id="contact-inner-div">
@@ -76,24 +104,20 @@
             <div id="contact-form" class="container-fluid">
                 <form>
                     <div class="row" id="contact-form-div">
-                        <div class="col-md-4 col-xs-4 contact-input">
-                            <input type="text" placeholder="Your Name">
-                        </div>
-                        <div class="col-md-4 col-xs-4 contact-input">
-                            <input type="email" placeholder="Your Email Address">
-                        </div>
-                        <div class="col-md-4 col-xs-4 contact-input">
-                            <input type="text" placeholder="Message Subject">
-                        </div>
+                        <input type="text" placeholder="Your Name" class="input-box">
+                        <input type="email" placeholder="Your Email Address" class="input-box">
+                        <input type="text" placeholder="Message Subject" class="input-box">
                     </div>
                     <div class="row" id="text-area-div">
-                        <div class="col-md-12 col-xs-12">
-                            <textarea placeholder="Your Message Here" id="textarea"></textarea>
-                        </div>
+                        <textarea placeholder="Your Message Here" id="textarea" class="input-box"></textarea>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-default" type="submit" id="contact-submit">Submit</button>
                     </div>
                 </form>
             </div>
         </div>        
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="jquery.js"></script>
 </html>
