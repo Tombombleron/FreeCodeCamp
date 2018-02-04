@@ -76,7 +76,7 @@
 }
 #port-inner-div {
     position: absolute;
-    top: 62%;
+    top: 61%;
     transform: translate(-50% 0);
 }
 #contact-div {
@@ -101,10 +101,10 @@
     width: 100%;
 }
 textarea {
-    width: 79%;
+    width: 40%;
     max-width: 529px;
     max-height: 150px;
-    min-height: 25px;
+    min-height: 30px;
     resize: vertical;
     margin-top: 5px;
 }
@@ -115,24 +115,36 @@ form {
     border-width: thin;
 }
 #port-table {
-    border-color: white;
-    border-style: solid;
-    float: left;
+/*    float: left;*/
     height: 100vh;
-    width: auto;
+/*    width: auto;*/
+    text-align: center;
 }
-.port-table-data {
+.port-img {
     height: 50vh;
-    width: 100%;
+    line-height: 50vh;
+    padding: 50px 0;
 }
-.ptd-top {
-    padding-bottom: 30px;
-}
-.ptd-bottom {
-    padding-top: 30px;
-}
-td {
-    border-color: white;
-    border-style: solid;
+img {
     width: auto;
+    height: 50%;
+    max-height: 347px;
+    margin-top: auto;
+}
+#navbar-container {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin: 0;
+    left: 0;
+}
+#contact-submit {
+    width: 10%;
+}
+.input-box {
+    border-radius: 2px;
+    border-style: none;
+}
+input {
+    padding: 0 2px;
 }
