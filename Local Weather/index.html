@@ -6,16 +6,21 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="styling.css">
     </head>
-    <body>
-        <div class="container-fluid position-center" id="info-box">
+    <body class="colour">
+        <div class="container-fluid position-center test-border" id="info-box">
             <div class="row" id="title-div">
                 <h1 class="col-md-12 col-xs-12 text-center text-white" id="title">Weather App</h1>
             </div>
             <div class="row text-white text-center" id="weather-location">
-            
+                <div class="col-md-12 col-xs-12 text-center">
+                    <h2 id="location-str"></h2>
+                </div>
             </div>
-            <div class="row text-white text-center" id="weather-status">
-                <h2 id="weather-str"></h2>
+            <div class="row">
+                <h3 class="col-md-12 col-xs-12 text-white text-center" id="temp">
+                    <span id="js_temp"></span>
+                    <span id="degrees">°C</span>
+                </h3>
             </div>
             <div class="row text-center" id="img">
                 <img src="" id="img-file">

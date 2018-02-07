@@ -1,18 +1,24 @@
 body {
-    background-color: dimgray;
+    background-color: #00695c;
 }
 .test-border {
     border-color: white;
     border-style: solid;
     border-width: ;
+    border-radius: 5px;
+    background-color: dimgray;
 }
 .text-white {
     color: white;
     
 }
 #info-box {
-    height: 30vh;
-    width: 30%;
+    min-height: 30vh;
+    max-height: 50vh;
+    min-width: 30%;
+    max-width: 40%;
+    overflow-y: visible;
+    padding: 20px;
 }
 .position-center {
     position: absolute;
@@ -32,9 +38,16 @@ body {
     margin-top: 15px;
 }
 #img {
-    height: 50%;
+    height: 40%;
+    margin-bottom: 20px !Important;
 }
 #img-file {
     height: 100%;
     width: auto;
+}
+#location-str {
+    text-transform: capitalize;
+}
+#degrees {
+    cursor: pointer;
 }
