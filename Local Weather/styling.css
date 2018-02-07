@@ -1,0 +1,40 @@
+body {
+    background-color: dimgray;
+}
+.test-border {
+    border-color: white;
+    border-style: solid;
+    border-width: ;
+}
+.text-white {
+    color: white;
+    
+}
+#info-box {
+    height: 30vh;
+    width: 30%;
+}
+.position-center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+#title-div {
+    height: 25%;
+}
+#title {
+    padding: auto;
+}
+#weather-status, #weather-location {
+    margin-top: 15px;
+}
+#img {
+    height: 50%;
+}
+#img-file {
+    height: 100%;
+    width: auto;
+}
